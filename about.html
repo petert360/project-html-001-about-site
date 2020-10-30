@@ -1,11 +1,86 @@
+<!-- 
+    About: ezen az oldalon legyen egy hosszabb bemutatkozás, de itt is elég 5-10 mondat.
+    1. Helyezz el egy nagyobb képet magadról (vagy arról akit bemutatsz) az oldal bal felső sarkában.
+    2. Mit csináltam eddig, mik az erősségeim, mi a hobbim, milyen nyelveket beszélek. Használd a megfelelő HTML elemeket a felsorolásokhoz, legyen benne számmal, ponttal való felsorolás is.
+    3. Az oldal alján legyen egy űrlap, amin keresztül üzenetet tudnak neked küldeni. Az adatokat ellenőrizni is kell, az alábbiak szerint:
+        1. Név (legalább 5 karakter hosszú és nem lehet üres).
+        2. Email (valid email címnek kell lennie).
+        3. Üzenet (legalább 20 karakter hosszú legyen.
+    4. (Opcionális) Helytelen adatok esetén ne lehessen az űrlapot elküldeni.
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <a name="top"></a>
+        <h3>Cím</h3>
+        <nav>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <img src="https://dummyimage.com/300x200/000/fff" alt="első nagyobb kép">
+                <h3>Eddigi tevékenységek:</h3>
+                <ul>
+                    <li><a>Első</a></li>
+                    <li><a>Második</a></li>
+                    <li><a>Harmadik</a></li>
+                </ul>
+                <h3>Erősségek:</h3>
+                <ol>
+                    <li><a>Első</a></li>
+                    <li><a>Második</a></li>
+                    <li><a>Harmadik</a></li>
+                </ol>
+                <h3>Hobbik:</h3>
+                <ul>
+                    <li><a>Első</a></li>
+                    <li><a>Második</a></li>
+                    <li><a>Harmadik</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Send e-mail to someone@example.com:</h2>
+
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    E-mail:<br>
+                    <input type="text" name="mail"><br>
+                    Comment:<br>
+                    <input type="text" name="comment" size="50"><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+                <p> 3. Az oldal alján legyen egy űrlap, amin keresztül üzenetet tudnak neked küldeni. Az adatokat
+                    ellenőrizni is kell, az alábbiak szerint:
+                    1. Név (legalább 5 karakter hosszú és nem lehet üres).
+                    2. Email (valid email címnek kell lennie).
+                    3. Üzenet (legalább 20 karakter hosszú legyen.
+                </p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <a href="#top">
+            <button class="btn">Ugrás az oldal tetejére</button>
+        </a>
+    </footer>
+
+
+
+
 </body>
+
 </html>

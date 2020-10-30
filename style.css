@@ -1,9 +1,11 @@
+/*mobil megjelenítés először*/
+
 .container{
     display: flex;
 }
 
 .box{ 
-	width:100px; 
+    width:100px; 
     height:100px; 
     float:left;
     margin:20px;
@@ -11,15 +13,33 @@
     border-style: solid;
 }
 
-.btn{ 
-    background-color: white; 
-    border: 2px solid black; 
-    color: green; 
-    padding: 5px 10px; 
-    text-align: center; 
-    display: inline-block; 
-    font-size: 20px; 
-    margin: 10px 30px; 
-    cursor: pointer; 
-    text-decoration:none; 
-} 
+h3{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.textdiv{
+    margin-bottom: 2em;
+}
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 600px) {
+    .works-box{
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+}
