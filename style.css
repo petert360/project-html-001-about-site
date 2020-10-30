@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+
+.box{ 
+	width:100px; 
+    height:100px; 
+    float:left;
+    margin:20px;
+    border-width: 1px;
+    border-style: solid;
+}
+
