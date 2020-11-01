@@ -1,9 +1,10 @@
+# Feladatmegoldások:
+
 Kedves Mentorok!
 
 Mindenekelőtt elnézéseteket kérem, hogy a feladatban a tartalom és a stílus kialakításig nem jutottam el.
 Igyekeztem a formai követelményeket tudásom szerint teljesíteni.
 
-# Feladatmegoldások:
 Minden oldalon elkészítettem a header, nav, main, section, footer elemeket a szemantikus weblap tervezésnek megfelelően.
 A helyileg mentett file-okat rendszeresen szinkronizáltam a github "petert360/project-html-001-about-site" repository-val.
 Az oldal tetejére címet helyeztem, ez alá a navigációs sort, a HOME-WORKS-GALLERY-ABOUT linkekkel.
