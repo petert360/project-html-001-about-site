@@ -1,7 +1,6 @@
 # project-html-001-about-site
 HTML haladó projekt feladat
-
-Date: 2020/10/30
+2020/10/30
 
 ### **Készíts egy bemutatkozó oldalt**
 
