@@ -17,7 +17,7 @@ A láblécnek a navigációs sornak megfelelő stílust adtam, a keretes szerkez
     4. A footerben lévő link az oldal tetején lévő elemre mutat, így valósítva meg az oldal tetejére ugrást.
 
 2. Works: 
-    1. A 3 projek bemutatására vonatkozó helyket divek segítségeével oldottam meg:
+    1. A 3 projek bemutatására vonatkozó helyket divek segítségével oldottam meg:
     a container divben egy div a képnek egy pedig a mellette lévő szövegnek készült. Azért bontottam a képet és a szöveget két divre, mert így a képet és a szöveg egymás mellé vagy alá tudom helyezni a képszélességtől függően a szöveg pedig mindig függölegesen tagolódik.
 
 3. Gallery: 
