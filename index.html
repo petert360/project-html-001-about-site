@@ -1,11 +1,18 @@
+<!-- 
+Home: ez lesz a főoldal.
+    1. Itt szerepelnie kell egy rövid bemutatkozásnak, max 1-2 mondatban.
+    2. Legyen rajta legalább két nagyobb kép.
+    3. Legyen rajta elhelyezve három box egymás mellett egy sorban, mindegyikben emeld ki a bemutatkozó egy-egy jó tulajdonságát.
+    4. A láblécben legyen egy gomb, ami kattintásra visszavisz az oldal tetejére.
+-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Home</title>
 </head>
 
 <body>
@@ -24,15 +31,27 @@
     <main>
         <article>
             <section>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc vel. Ultricies mi quis hendrerit dolor magna eget.</p>
-            </section>
-            <section class="container">
-                <img src="https://dummyimage.com/300x200/000/fff" alt="első nagyobb kép">
-                <img src="https://dummyimage.com/300x200/000/fff" alt="második nagyobb kép">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc vel. Ultricies mi quis
+                    hendrerit dolor magna eget.</p>
             </section>
             <section>
-                <p>Legyen rajta elhelyezve három box egymás mellett egy sorban, mindegyikben emeld ki a bemutatkozó
-                    egy-egy jó tulajdonságát.</p>
+                <!-- Legyen rajta legalább két nagyobb kép. -->
+                <div class="responsiveindex">
+                    <div class="image">
+                        <img src="https://dummyimage.com/300x200/000/fff" alt="kép" style="width:100%">
+                    </div>
+                </div>
+                <div class="responsiveindex">
+                    <div class="image">
+                        <img src="https://dummyimage.com/300x200/000/fff" alt="kép" style="width:100%">
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <section>
+                <!-- Legyen rajta elhelyezve három box egymás mellett egy sorban, mindegyikben emeld ki a bemutatkozó
+                    egy-egy jó tulajdonságát. -->
                 <div class="container">
                     <div class="box">Első jó tulajdonság</div>
                     <div class="box">Második jó tulajdonság</div>

@@ -1,7 +1,12 @@
 /*mobil megjelenítés először*/
 body{
-    margin: 10 auto; 
-    
+    margin: 10px auto;
+
+}
+
+article{
+ margin: 5px 5px auto;
+
 }
 
 /* felső nav sor*/
@@ -29,7 +34,7 @@ body{
     color: white;
 }
 
-/* alsó nav sor*/
+/* alsó nav sor formázása*/
 .bottomnav {
     background-color: #333;
     overflow: hidden;
@@ -43,8 +48,7 @@ body{
     text-decoration: none;
     font-size: 17px;
 }
-
-
+/* index.html divjeinek formázása*/
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -59,22 +63,45 @@ body{
     border-style: solid;
 }
 
-h3{
+/* cím formázása*/
+h1, h3{
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
 
+/* works oldalon a szöveg div formázása*/
 .textdiv{
+    margin-left: 0.5em;
     margin-bottom: 2em;
 }
 
+/* geléria elemeinek formázása*/
 img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.responsive{
+        float: left;    
+        width: 100%;
+}
+
+.image{
+    padding: 5px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* desktopon  formázások*/
 @media (min-width: 600px) {
-    /* desktopon a max szélesség 800px, középre rendezve, ha ennél mégis nagyobb*/
-    body {
+    *{
+       box-sizing: border-box;
+     }
+
+    body{
         margin: auto; 
         border: 10px;
         max-width: 800px;
@@ -86,14 +113,16 @@ img{
         align-items: stretch;
         justify-content: flex-start;
     }
-
-    * {
-        box-sizing: border-box;
-      }
-      
-      .column {
+   
+    .responsive{
         float: left;
         width: 33.33%;
-        padding: 5px;
-      }
+    }
+
+    .responsiveindex{
+        float: left;
+        width: 50%;
+    }
+
+      
 }
