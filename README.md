@@ -24,7 +24,7 @@ A láblécet a nevigációs sornak megfelelő stílist adtam, a keretes szerkeze
 4. About
     1. A nav alatt egy kép helye van a bemutatandó személyről.
     2. A tulajdonságok felsorolásában rendezett és rendezetlen listák is vannak
-    3. Az úrlap validálásokat csak HTML szinten oldaottam meg
+    3. Az űrlap validálásokat csak HTML szinten oldaottam meg
         név min. 5 karakter: minlength="5" required
         email @-et taralmató szöveg: type="email" required
         üzenet min. 20 karakter: minlength="5" required
