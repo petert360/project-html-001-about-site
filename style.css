@@ -5,8 +5,7 @@ body{
 }
 
 article{
- margin: 5px 5px auto;
-
+ margin: 5px 5px;
 }
 
 /* felső nav sor*/
@@ -64,15 +63,20 @@ article{
 }
 
 /* cím formázása*/
-h1, h3{
+h1, h2, h3{
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
 
-/* works oldalon a szöveg div formázása*/
+/* works oldalon a szöveg és div formázása*/
 .textdiv{
     margin-left: 0.5em;
     margin-bottom: 2em;
+}
+
+ol, ul{
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /* geléria elemeinek formázása*/
