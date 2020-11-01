@@ -27,7 +27,7 @@ Igyekeztem a formai követelményeket tudásom szerint teljesíteni.
     __box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);__
     * Mobil nézet esetén egymás alá kerülnek a képek, 600px felett 3 van egy sorban.
 
-4. About
+4. About:
     * A nav alatt egy kép helyét alakítottam ki.
     * A tulajdonságok felsorolásában OL és UL elemeket is használtam.
     * Az űrlap validálásokat csak HTML szinten oldaottam meg:
