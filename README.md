@@ -11,7 +11,7 @@ Igyekeztem a formai követelményeket tudásom szerint teljesíteni.
 * A láblécnek a navigációs sornak megfelelő stílust adtam, a keretes szerkezet érdekében.
 
 1. Home:
-    * A rövid bemutatkozást "lorem ipsum" helyettesíti
+    * A rövid bemutatkozást "lorem ipsum" helyettesíti.
     * Két képnek alakítottam ki helyet a bemutatkozás alatt, a galériában alkalmazott módszerrel tettem reszponzívvá.
     * A három boxot egy "containerben" elhelyezett 3 "box" divvel alkítottam ki. A container flex, a benne lévő diveket egymás mellé a __justify-content: space-evenly;__ segítségével helyeztem el.
     * A footerben lévő link az oldal tetején lévő elemre mutat, így valósítva meg az oldal tetejére ugrást.
