@@ -23,11 +23,10 @@ Igyekeztem a formai követelményeket tudásom szerint teljesíteni.
 3. Gallery: 
     * A https://www.w3schools.com/css/css_image_gallery.asp alapján építettem fel a galéria oldalt.
     * A css-ben az ide vonatkozó __.clearfix:after{}__ és a __*{}__ megoldásokat nem látom át teljesen, de nélkülük az oldal nem őrizné meg a formát, és saját megoldást egyelőre nem találtam.
-    * A képek körül halvány árnyék van:  
-    __box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);__
+    * A képek körül halvány árnyék van: __box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);__
     * Mobil nézet esetén egymás alá kerülnek a képek, 600px felett 3 van egy sorban.
 
-4. About:
+4. About
     * A nav alatt egy kép helyét alakítottam ki.
     * A tulajdonságok felsorolásában OL és UL elemeket is használtam.
     * Az űrlap validálásokat csak HTML szinten oldaottam meg:
